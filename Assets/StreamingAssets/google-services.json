@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "733127972934",
+    "project_id": "world-cricket-2-f574a",
+    "storage_bucket": "world-cricket-2-f574a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733127972934:android:3cfa357a6e03ba3d9a9247",
+        "android_client_info": {
+          "package_name": "com.realcricket.worldcricket.wcc.cricketgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733127972934-9am56kmsi7la0bg2ts5oke6ge6cs76o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1mVxdmzL7GmWTRDhA8Nm_YssMPxpEU4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733127972934-9am56kmsi7la0bg2ts5oke6ge6cs76o4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

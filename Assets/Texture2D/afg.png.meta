@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: bee01e7185b33424795cc315da39d3dc
-timeCreated: 1657098681
+guid: ae9e864fc8291c044aea5f12dd201515
+timeCreated: 1657098686
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -29,8 +29,8 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 3
-  maxTextureSize: 57
+  textureFormat: 7
+  maxTextureSize: 130
   textureSettings:
     serializedVersion: 2
     filterMode: 1
@@ -75,17 +75,17 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline:
-    - - {x: 28.5, y: -20}
-      - {x: -28.5, y: -20}
-      - {x: -28.5, y: 20}
-      - {x: 28.5, y: 20}
+    - - {x: 65, y: -45}
+      - {x: -65, y: -45}
+      - {x: -65, y: 45}
+      - {x: 65, y: 45}
     physicsShape:
-    - - {x: -28.5, y: 20}
-      - {x: -28.5, y: -20}
-      - {x: 28.5, y: -20}
-      - {x: 28.5, y: 20}
+    - - {x: -65, y: 45}
+      - {x: -65, y: -45}
+      - {x: 65, y: -45}
+      - {x: 65, y: 45}
     bones: []
-    spriteID: 42eea4d7d40948ac8605cc34701bd3d2
+    spriteID: a5d86dadf2a04f98ab98a1aff77a0787
     vertices: []
     indices:
     edges: []

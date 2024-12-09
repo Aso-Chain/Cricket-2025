@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class NetworkManager : MonoBehaviour
 {
-	public AndroidJavaObject objNative;
+	//public AndroidJavaObject objNative;
 
 	private static NetworkManager _Instance;
 
@@ -20,7 +20,7 @@ public class NetworkManager : MonoBehaviour
 		if (_Instance == null)
 		{
 			_Instance = this;
-			initTheNativeAndroid();
+			//initTheNativeAndroid();
 		}
 	}
 
@@ -32,9 +32,9 @@ public class NetworkManager : MonoBehaviour
 
 	public void initTheNativeAndroid()
 	{
-		if (objNative == null)
-		{
-			AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+		//if (objNative == null)
+		//{
+			//AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
 			//AndroidJavaObject @static = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
 			//AndroidJavaClass androidJavaClass2 = new AndroidJavaClass("com.nextwave.android.NativeAndroid");
 			//if (androidJavaClass2 != null)
@@ -43,10 +43,10 @@ public class NetworkManager : MonoBehaviour
 				//objNative.Call("setContext", @static);
 				//objNative.Call("setActivity", @static);
 			//}
-		}
+		//}
 	}
 
-	public bool CheckInternetUsingNative()
+/*	public bool CheckInternetUsingNative()
 	{
 		if (objNative != null)
 		{
@@ -57,5 +57,5 @@ public class NetworkManager : MonoBehaviour
 			return flag;
 		}
 		return false;
-	}
+	}*/
 }

@@ -3,8 +3,88 @@
   "WorkspaceRootPath": "D:\\GitHub\\Cricket-2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\matchsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\matchsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|d:\\github\\cricket-2025\\assets\\scripts\\assembly-csharp\\quickplayfreeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\quickplayfreeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|d:\\github\\cricket-2025\\assets\\scripts\\assembly-csharp\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\scoreboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\scoreboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\superoverlevelinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\superoverlevelinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\superchaselevelinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\superchaselevelinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\ctlevelselectionpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\ctlevelselectionpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\phpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\phpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\managescenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\managescenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\localizationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\localizationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\loadplayerprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\loadplayerprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\serversettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\serversettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\unity-logs-viewer\\reporter\\test\\testreporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\unity-logs-viewer\\reporter\\test\\testreporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\unity-logs-viewer\\reporter\\multikeydictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\unity-logs-viewer\\reporter\\multikeydictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\unity-logs-viewer\\reporter\\reporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\unity-logs-viewer\\reporter\\reporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\bowlingscorecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\bowlingscorecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\123_pratik\\loading_scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\123_pratik\\loading_scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\coinsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\coinsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|D:\\GitHub\\Cricket-2025\\assets\\scripts\\assembly-csharp\\gamemodetwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9675B65B-1017-0B60-9FEA-C94C3CC28D38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\gamemodetwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +94,263 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuickPlayFreeEntry.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\QuickPlayFreeEntry.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\QuickPlayFreeEntry.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\QuickPlayFreeEntry.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\QuickPlayFreeEntry.cs",
+              "ViewState": "AQIAALIDAAAAAAAAAAAgwLsDAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:42:34.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SuperChaseLevelInfo.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\SuperChaseLevelInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\SuperChaseLevelInfo.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\SuperChaseLevelInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\SuperChaseLevelInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:39:51.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CTLevelSelectionPage.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\CTLevelSelectionPage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\CTLevelSelectionPage.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\CTLevelSelectionPage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\CTLevelSelectionPage.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAawCcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:39:47.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\NetworkManager.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\NetworkManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\NetworkManager.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwCkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:32:19.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageScenes.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\ManageScenes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\ManageScenes.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\ManageScenes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\ManageScenes.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:32:06.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LocalizationData.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\LocalizationData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\LocalizationData.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\LocalizationData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\LocalizationData.cs",
+              "ViewState": "AQIAAMgAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:31:54.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EncryptionService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\EncryptionService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\EncryptionService.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\EncryptionService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\EncryptionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:31:46.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PHPManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\PHPManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\PHPManager.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\PHPManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\PHPManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:31:34.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoadPlayerPrefs.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\LoadPlayerPrefs.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\LoadPlayerPrefs.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\LoadPlayerPrefs.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\LoadPlayerPrefs.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:31:23.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServerSettings.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\ServerSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\ServerSettings.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\ServerSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\ServerSettings.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:31:05.203Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MatchSummary.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\MatchSummary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\MatchSummary.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\MatchSummary.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\MatchSummary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:10:42.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SuperOverLevelInfo.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\SuperOverLevelInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\SuperOverLevelInfo.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\SuperOverLevelInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\SuperOverLevelInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:39:56.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Scoreboard.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\Scoreboard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\Scoreboard.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\Scoreboard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\Scoreboard.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAawCkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:40:00.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "About.cs",
               "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\About.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\About.cs",
               "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\About.cs",
               "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\About.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAmwDgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T09:51:10.228Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TestReporter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Unity-Logs-Viewer\\Reporter\\Test\\TestReporter.cs",
+              "RelativeDocumentMoniker": "Assets\\Unity-Logs-Viewer\\Reporter\\Test\\TestReporter.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Unity-Logs-Viewer\\Reporter\\Test\\TestReporter.cs",
+              "RelativeToolTip": "Assets\\Unity-Logs-Viewer\\Reporter\\Test\\TestReporter.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:48:56.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MultiKeyDictionary.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Unity-Logs-Viewer\\Reporter\\MultiKeyDictionary.cs",
+              "RelativeDocumentMoniker": "Assets\\Unity-Logs-Viewer\\Reporter\\MultiKeyDictionary.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Unity-Logs-Viewer\\Reporter\\MultiKeyDictionary.cs",
+              "RelativeToolTip": "Assets\\Unity-Logs-Viewer\\Reporter\\MultiKeyDictionary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:48:37.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Reporter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Unity-Logs-Viewer\\Reporter\\Reporter.cs",
+              "RelativeDocumentMoniker": "Assets\\Unity-Logs-Viewer\\Reporter\\Reporter.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Unity-Logs-Viewer\\Reporter\\Reporter.cs",
+              "RelativeToolTip": "Assets\\Unity-Logs-Viewer\\Reporter\\Reporter.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:48:08.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CoinSystem.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\CoinSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\CoinSystem.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\CoinSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\CoinSystem.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwDUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:02:51.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BowlingScoreCard.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\BowlingScoreCard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\BowlingScoreCard.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\BowlingScoreCard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\BowlingScoreCard.cs",
+              "ViewState": "AQIAAK8DAAAAAAAAAAAawMEDAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:40:47.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Loading_Scene.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\123_Pratik\\Loading_Scene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\123_Pratik\\Loading_Scene.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\123_Pratik\\Loading_Scene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\123_Pratik\\Loading_Scene.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:13:48.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GameModeTWO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\GameModeTWO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\GameModeTWO.cs",
+              "ToolTip": "D:\\GitHub\\Cricket-2025\\Assets\\Scripts\\Assembly-CSharp\\GameModeTWO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\GameModeTWO.cs",
+              "ViewState": "AQIAAAsEAAAAAAAAAAAowBwEAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:25:29.271Z"
             }
           ]
         }

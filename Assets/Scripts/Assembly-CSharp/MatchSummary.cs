@@ -271,11 +271,14 @@ public class MatchSummary : Singleton<MatchSummary>
 		if (oppTeamFlag.sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].abbrevation)
 		{
 			ScreenFourDetails(1);
+			Debug.Log("SwapScorecard  1");
+
 		}
 		else
 		{
 			ScreenFourDetails(0);
-		}
+            Debug.Log("SwapScorecard  0----" + oppTeamFlag.sprite.name.ToUpper() + "------"+ CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].abbrevation);
+        }
 	}
 
 	public void ScreenFourDetails(int index)

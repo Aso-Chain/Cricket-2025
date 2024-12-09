@@ -949,25 +949,26 @@ public class QuickPlayFreeEntry : MonoBehaviour
 
 	public void UpdateTimeOffset()
 	{
-		UpdateTimeOffsetAndroid();
-	}
+        //UpdateTimeOffsetAndroid(); // //Pratik 09-12-2024
+    }
 
-	public bool IsUsingSystemTime()
+    public bool IsUsingSystemTime()
 	{
-		return UsingSystemTimeAndroid();
-	}
+		return true;
+        //return UsingSystemTimeAndroid();     //Pratik 09-12-2024
+    }
 
-	private void SessionStart()
+    private void SessionStart()
 	{
-		StartAndroid();
+		//StartAndroid(); //Pratik 09-12-2024
 	}
 
 	private void SessionEnd()
 	{
-		EndAndroid();
-	}
+        //EndAndroid();   //Pratik 09-12-2024
+    }
 
-	private void UpdateTimeOffsetAndroid()
+    private void UpdateTimeOffsetAndroid()
 	{
 		if (Application.platform != RuntimePlatform.Android)
 		{

@@ -1052,7 +1052,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 
 	public void ResetDetails()
 	{
-		for (int i = 0; i < 2; i++)
+		for (int i = 0; i < 1; i++) //Pratik 2 To 1
 		{
 			userTickets[i].text = ObscuredPrefs.GetInt(CONTROLLER.TicketsKey).ToString();
 			userXP[i].text = ObscuredPrefs.GetInt(CONTROLLER.XPKey).ToString();

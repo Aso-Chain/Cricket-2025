@@ -1154,7 +1154,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		{
 			if (Application.internetReachability != NetworkReachability.NotReachable)
 			{
-				InterfaceHandler._instance.multiplayerButtonClickEvent();
+				//InterfaceHandler._instance.multiplayerButtonClickEvent();
 			}
 			else
 			{

@@ -282,9 +282,9 @@ public class SevenDaysRewards : Singleton<SevenDaysRewards>
 		{
 			form.AddField("uid", Google_SignIn.guestUserID);
 		}*/
-		WWW www = new WWW(CONTROLLER.PHP_Server_Link, form);
-		yield return www;
-		JsonData json = JsonMapper.ToObject(www.text);
+		//WWW www = new WWW(CONTROLLER.PHP_Server_Link, form);
+		yield return 0;//www;
+		/*JsonData json = JsonMapper.ToObject(www.text);
 		if (json["SDBU"] != null)
 		{
 			if (json["SDBU"]["status"].ToString() == "1")
@@ -295,6 +295,6 @@ public class SevenDaysRewards : Singleton<SevenDaysRewards>
 			{
 				ObscuredPrefs.SetInt("Bonus7daysynced", 0);
 			}
-		}
+		}*/
 	}
 }

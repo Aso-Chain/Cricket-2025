@@ -107,7 +107,12 @@ public class InterfaceHandler : MonoBehaviour
 		}
 	}
 
-	/*public void multiplayerButtonClickEvent()
+	public void Click_On_MultiPlayer()
+	{
+		
+	}
+
+/*	public void multiplayerButtonClickEvent()
 	{
 		Debug.Log(string.Concat(Application.internetReachability, " ", NetworkReachability.NotReachable, " ", Application.internetReachability != NetworkReachability.NotReachable));
 		if (Application.internetReachability != 0 && Application.internetReachability != NetworkReachability.NotReachable)
@@ -136,29 +141,29 @@ public class InterfaceHandler : MonoBehaviour
 		{
 			_instance.ShowNoInternetPopup();
 		}
-	}*/
+	}
 
-/*	public void OpenMultiplayer()
+	public void OpenMultiplayer()
 	{
 		bForceConnectMultiplayer = false;
 		CONTROLLER.PlayModeSelected = 6;
 		CONTROLLER.gameMode = string.Empty;
 		StartCoroutine(ConnectToMultiplayer());
-	}*/
+	}
 
-/*	private IEnumerator ConnectToMultiplayer()
+	private IEnumerator ConnectToMultiplayer()
 	{
 		ShowLoadingScreen(bCanShowCountdown: true);
-		yield return StartCoroutine(NetworkManager.Instance.CheckInternetConnection());
-		if (NetworkManager.Instance.IsNetworkConnected)
-		{
+		yield return 0;//StartCoroutine(NetworkManager.Instance.CheckInternetConnection());
+		//if (NetworkManager.Instance.IsNetworkConnected)
+		//{
 			//ServerManager.Instance.Connect();
-			yield break;
-		}
+		//	yield break;
+		//}
 		HideLoadingScreen();
 		ShowNoInternetPopup();
-	}
-*/
+	}*/
+
 	public IEnumerator LoadGroundScene()
 	{
 		//Singleton<AdIntegrate>.instance.HideAd(); //Pratik

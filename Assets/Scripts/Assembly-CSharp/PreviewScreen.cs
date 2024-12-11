@@ -153,7 +153,7 @@ public class PreviewScreen : Singleton<PreviewScreen>
 
 	public void UpdatePreviewScreen(Dictionary<string, object> hashtable)
 	{
-		float num = 1f;
+		float num = 2f;
 		Vector3 vector;
 		if (hashtable.ContainsKey("Ball"))
 		{

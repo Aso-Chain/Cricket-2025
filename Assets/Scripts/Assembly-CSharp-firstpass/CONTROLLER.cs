@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CONTROLLER
 {
-	public static string PHP_Server_Link = "https://wcclite.cricketbuddies.in/wcc_lite/unity/unity.php";
+	//public static string PHP_Server_Link = "https://wcclite.cricketbuddies.in/wcc_lite/unity/unity.php";
 
 	public static int lastPlayedMode = 1;
 
@@ -148,7 +148,7 @@ public class CONTROLLER
 
 	public static string tournamentStatus = "LEAGUE MATCH";
 
-	public static string fbLikeLink = "https://www.facebook.com/pages/Allstarcricket/1547772552101087";
+	//public static string fbLikeLink = "https://www.facebook.com/pages/Allstarcricket/1547772552101087";
 
 	public static float HeigthRatio;
 

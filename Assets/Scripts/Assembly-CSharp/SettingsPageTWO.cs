@@ -6,23 +6,23 @@ public class SettingsPageTWO : Singleton<SettingsPageTWO>
 {
 	public GameObject Holder;
 
-	public GameObject LocalizationHolder;
+	//public GameObject LocalizationHolder;
 
-	public Text Loc_Heading1;
+	//public Text Loc_Heading1;
 
-	public Text Loc_Heading2;
+	//public Text Loc_Heading2;
 
-	public Text Loc_Heading3;
+	//public Text Loc_Heading3;
 
-	private int LanguageWhenOpened;
+	//private int LanguageWhenOpened;
 
-	public Button[] LanguageButtons;
+	//public Button[] LanguageButtons;
 
-	public Button LocalizeOKButton;
+	//public Button LocalizeOKButton;
 
 	public Text CurrentLanguageName;
 
-	private string[] languageCode = new string[9] { "evsjv", "ENGLISH", "gaujrataI", "fganh", "ಕನ\u0ccdನಡ\u0cbfಗ", "aebmfw", "ekjrh", "jkpo;", "త\u0c46ల\u0c41గ\u0c41" };
+	//private string[] languageCode = new string[9] { "evsjv", "ENGLISH", "gaujrataI", "fganh", "ಕನ\u0ccdನಡ\u0cbfಗ", "aebmfw", "ekjrh", "jkpo;", "త\u0c46ల\u0c41గ\u0c41" };
 
 	public Button[] soundBtns;
 
@@ -134,23 +134,23 @@ public class SettingsPageTWO : Singleton<SettingsPageTWO>
 
 	public void CloseLocalizationPopup()
 	{
-		Singleton<NavigationBack>.instance.deviceBack = hideMe;
+		/*Singleton<NavigationBack>.instance.deviceBack = hideMe;
 		Holder.SetActive(value: true);
 		setSettingsPage();
 		LocalizationHolder.SetActive(value: false);
 		//CurrentLanguageName.text = languageCode[LocalizationData.instance.languageIndex];
 		//Debug.Log(LanguageWhenOpened + " " + LocalizationData.instance.languageIndex);
-	/*	if (LanguageWhenOpened == LocalizationData.instance.languageIndex)
+	*//*	if (LanguageWhenOpened == LocalizationData.instance.languageIndex)
 		{
 			return;
-		}*/
+		}*//*
 		for (int i = 0; i < LocalizationData.instance.refList.Count; i++)
 		{
 			if (PlayerPrefs.HasKey(LocalizationData.instance.refList[i]))
 			{
 				PlayerPrefs.DeleteKey(LocalizationData.instance.refList[i]);
 			}
-		}
+		}*/
 	}
 
 	private void ValidateQualitySettings()

@@ -6,9 +6,9 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 {
 	public ShineAnim[] shineAnim;
 
-	public Transform logo;
+	//public Transform logo;
 
-	public Transform cricketGamingImage;
+	//public Transform cricketGamingImage;
 
 	public Transform quickPlay;
 
@@ -142,11 +142,11 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 
 	public Transform content;
 
-	public Transform[] comboBox;
+	//public Transform[] comboBox;
 
-	public Transform achievementsRedBG;
+	//public Transform achievementsRedBG;
 
-	public Transform achievementsIcon;
+	//public Transform achievementsIcon;
 
 	private int count;
 
@@ -161,11 +161,11 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 	{
 		resetTransition();
 		Sequence sequence = DOTween.Sequence();
-		sequence.Append(logo.DOScaleX(0.1f, 0f));
-		sequence.Insert(0.6f, logo.DOScale(Vector3.one, 0.3f));
-		sequence.Insert(0.7f, cricketGamingImage.DOScaleX(1f, 0.2f));
-		sequence.Insert(0.9f, cricketGamingImage.DOPunchScale(new Vector3(0.05f, 0.05f, 0.05f), 0.15f, 0));
-		sequence.Insert(1f, cricketGamingImage.DOScaleX(1f, 0f));
+		//sequence.Append(logo.DOScaleX(0.1f, 0f));
+		//sequence.Insert(0.6f, logo.DOScale(Vector3.one, 0.3f));
+		//sequence.Insert(0.7f, cricketGamingImage.DOScaleX(1f, 0.2f));
+		//sequence.Insert(0.9f, cricketGamingImage.DOPunchScale(new Vector3(0.05f, 0.05f, 0.05f), 0.15f, 0));
+		//sequence.Insert(1f, cricketGamingImage.DOScaleX(1f, 0f));
 		sequence.Insert(0.2f, userPic.transform.DOScale(new Vector3(1f, 1f, 1f), 0.2f));
 		sequence.Insert(0.3f, userPic.transform.DOPunchScale(new Vector3(0.1f, 0.1f, 0.1f), 0.2f, 0));
 		sequence.Insert(0.25f, userName.DOFade(1f, fadetime));
@@ -191,11 +191,11 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 		sequence.Insert(0.2f, rewardsIcon.transform.DOScale(Vector3.one, 0.4f));
 		sequence.Insert(0.8f, rewardsIcon.transform.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.2f, 0));
 		sequence.Insert(0.4f, rewardsRedBG.transform.DOScaleX(1f, 0.4f));
-		sequence.Insert(0.4f, achievementsIcon.transform.DOScale(Vector3.one, 0.4f));
-		sequence.Insert(1f, achievementsIcon.transform.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.2f, 0));
-		sequence.Insert(0.75f, achievementsRedBG.transform.DOScaleX(1f, 0.4f));
-		sequence.Insert(0.6f, comboBox[0].DOScale(new Vector3(0.85f, 0.85f, 1f), 0.3f));
-		sequence.Insert(0.7f, comboBox[1].DOScale(new Vector3(0.85f, 0.85f, 1f), 0.3f));
+		//sequence.Insert(0.4f, achievementsIcon.transform.DOScale(Vector3.one, 0.4f));
+		//sequence.Insert(1f, achievementsIcon.transform.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.2f, 0));
+		//sequence.Insert(0.75f, achievementsRedBG.transform.DOScaleX(1f, 0.4f));
+		//sequence.Insert(0.6f, comboBox[0].DOScale(new Vector3(0.85f, 0.85f, 1f), 0.3f));
+		//sequence.Insert(0.7f, comboBox[1].DOScale(new Vector3(0.85f, 0.85f, 1f), 0.3f));
 		sequence.Insert(0.7f, quickPlay.DOScale(Vector3.one, 0.4f));
 		sequence.Insert(0.75f, quickPlayText.DOFade(1f, fadetime));
 		sequence.Insert(1f, quickPlayicon.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.3f, 0));
@@ -265,10 +265,10 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 		storeBG.transform.localScale = new Vector3(0f, 1f, 1f);
 		storeIcon.transform.localPosition = new Vector3(-6f, 0f, 0f);
 		spinBG.transform.localScale = new Vector3(0f, 1f, 1f);
-		logo.localScale = Vector3.zero;
-		cricketGamingImage.localScale = new Vector3(0f, 1f, 1f);
-		comboBox[0].localScale = Vector3.zero;
-		comboBox[1].localScale = Vector3.zero;
+		//logo.localScale = Vector3.zero;   //Pratik
+		//cricketGamingImage.localScale = new Vector3(0f, 1f, 1f);
+		//comboBox[0].localScale = Vector3.zero;
+		//comboBox[1].localScale = Vector3.zero;
 		quickPlay.localScale = Vector3.zero;
 		worldCup.localScale = Vector3.zero;
 		tournament.localScale = Vector3.zero;
@@ -323,7 +323,7 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 		tokenText2.DOFade(0f, fadetime).SetUpdate(isIndependentUpdate: true);
 		rewardsIcon.transform.localScale = Vector3.zero;
 		rewardsRedBG.transform.localScale = new Vector3(0f, 1f, 1f);
-		achievementsIcon.transform.localScale = Vector3.zero;
-		achievementsRedBG.transform.localScale = new Vector3(0f, 1f, 1f);
+		//achievementsIcon.transform.localScale = Vector3.zero;
+		//achievementsRedBG.transform.localScale = new Vector3(0f, 1f, 1f);
 	}
 }

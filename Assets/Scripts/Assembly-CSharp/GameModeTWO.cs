@@ -863,7 +863,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		}
 	}
 
-	public void OpenAbout()
+	/*public void OpenAbout()
 	{
 		Singleton<About>.instance.ShowMe();
 		Holder.SetActive(value: false);
@@ -871,7 +871,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		{
 			//Singleton<AdIntegrate>.instance.ShowAd(); //Pratik
 		}
-	}
+	}*/
 
 	public void ClaimTickets()
 	{

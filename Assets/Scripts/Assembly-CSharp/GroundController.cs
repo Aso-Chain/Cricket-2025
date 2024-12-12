@@ -15445,7 +15445,7 @@ public class GroundController : Singleton<GroundController>
 				mistimedShot = true;
 				Singleton<BattingControls>.instance.battingTimingNeedleText.text = LocalizationData.instance.getText(545);
 			}
-			Singleton<BattingControls>.instance.battingMeterPointer.transform.localPosition = new Vector3(battingTimingMeter, Singleton<BattingControls>.instance.battingMeterPointer.transform.localPosition.y);
+			Singleton<BattingControls>.instance.battingMeterPointer.transform.localPosition = new Vector3(battingTimingMeter, Singleton<BattingControls>.instance.battingMeterPointer.transform.localPosition.y);// Into 2 by Pratik
 		}
 	}
 

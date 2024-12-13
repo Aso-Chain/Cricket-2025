@@ -941,6 +941,7 @@ public class TeamSelectionTWO : Singleton<TeamSelectionTWO>
 				string[] array2 = string2.Split("|"[0]);
 				CONTROLLER.myTeamIndex = int.Parse(array2[0]);
 				CONTROLLER.opponentTeamIndex = int.Parse(array2[1]);
+
 			}
 			oppTeamSelectionRightArrow();
 			oppTeamSelectionLeftArrow();

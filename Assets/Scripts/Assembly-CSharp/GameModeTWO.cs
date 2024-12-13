@@ -141,13 +141,13 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		}
 		if (ButtonTab1Bool && ReturnState == 1 && ResetTab1)
 		{
-			Singleton<InfoAnim>.instance.loop1();
-			Singleton<settingsAnim>.instance.Settingsloop();
-			Singleton<Help_Anim>.instance.loop1();
-			Singleton<LeaderBoard_Anim>.instance.loop1();
-			Singleton<Like_Anim>.instance.loop1();
-			Singleton<Follow_Anim>.instance.loop1();
-			Singleton<Rate_Anim>.instance.loop1();
+			//Singleton<InfoAnim>.instance.loop1();            //Pratik
+			Singleton<settingsAnim>.instance.Settingsloop();   
+			//Singleton<Help_Anim>.instance.loop1();		   //Pratik
+			//Singleton<LeaderBoard_Anim>.instance.loop1();	   //Pratik
+			//Singleton<Like_Anim>.instance.loop1();		   //Pratik
+			//Singleton<Follow_Anim>.instance.loop1();		   //Pratik
+			//Singleton<Rate_Anim>.instance.loop1();		   //Pratik
 			ResetTab1 = false;
 		}
 	}
@@ -647,7 +647,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		{
 			CONTROLLER.GameStartsFromSave = false;
 			Holder.SetActive(value: false);
-			Singleton<TeamSelectionArcadePanelTransition>.instance.panelTransition();
+			//Singleton<TeamSelectionArcadePanelTransition>.instance.panelTransition(); //Pratik
 			Singleton<TeamSelectionTWO>.instance.showMe();
 		}
 		else

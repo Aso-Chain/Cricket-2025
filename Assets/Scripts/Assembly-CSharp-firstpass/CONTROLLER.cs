@@ -826,5 +826,6 @@ public class CONTROLLER
 
 	public static void GUILog(string str)
 	{
+
 	}
 }

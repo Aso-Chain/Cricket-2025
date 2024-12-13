@@ -22,7 +22,11 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 
 	public Text tournamentText;
 
-	public Transform npl;
+    public Transform Test_Play;//Pratik Add
+
+    public Text Test_PlayText;//Pratik Add
+
+    public Transform npl;
 
 	public Text nplText;
 
@@ -202,11 +206,18 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 		sequence.Insert(0.8f, tournament.DOScale(Vector3.one, 0.4f));
 		sequence.Insert(0.85f, tournamentText.DOFade(1f, fadetime));
 		sequence.Insert(1.1f, tournamentIcon.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.3f, 0));
-		sequence.Insert(0.9f, worldCup.DOScale(Vector3.one, 0.4f));
+		
+		
+		sequence.Insert(1.3f, Test_Play.DOScale(Vector3.one, 0.4f));//Pratik Add
+        sequence.Insert(1.35f, Test_PlayText.DOFade(1f, fadetime));//Pratik Add
+                                                                   //sequence.Insert(1.1f, tournamentIcon.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.3f, 0));
+
+
+        sequence.Insert(0.9f, worldCup.DOScale(Vector3.one, 0.4f));
 		sequence.Insert(0.95f, worldCupText.DOFade(1f, fadetime));
-		sequence.Insert(1.2f, worldCupIcon.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.3f, 0));
-		sequence.Insert(1f, spinTheWheel.DOScale(Vector3.one, 0.4f));
-		sequence.Insert(1.5f, spinTheWheelText.DOFade(1f, fadetime));
+        sequence.Insert(1.2f, worldCupIcon.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.3f, 0));
+		sequence.Insert(1f, spinTheWheel.DOScale(Vector3.one, 0.4f));    
+        sequence.Insert(1.5f, spinTheWheelText.DOFade(1f, fadetime));
 		sequence.Insert(1.3f, spinTheWheelIcon.DOPunchScale(new Vector3(0.3f, 0.3f, 0.3f), 0.3f, 0));
 		sequence.Insert(1.1f, superOver.DOScale(Vector3.one, 0.4f));
 		sequence.Insert(1.15f, superOverText.DOFade(1f, fadetime));
@@ -272,6 +283,9 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 		quickPlay.localScale = Vector3.zero;
 		worldCup.localScale = Vector3.zero;
 		tournament.localScale = Vector3.zero;
+
+		Test_Play.localScale = Vector3.zero; //Pratik Add
+
 		npl.localScale = Vector3.zero;
 		superOver.localScale = Vector3.zero;
 		spinTheWheel.localScale = Vector3.zero;
@@ -293,7 +307,10 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 		quickPlayText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);
 		worldCupText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);
 		tournamentText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);
-		nplText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);
+
+		Test_PlayText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);//Pratik Add
+
+        nplText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);
 		superOverText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);
 		spinTheWheelText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);
 		helpbtnText.DOFade(0f, 0f).SetUpdate(isIndependentUpdate: true);

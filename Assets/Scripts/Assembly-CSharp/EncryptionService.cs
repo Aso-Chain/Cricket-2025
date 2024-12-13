@@ -102,6 +102,7 @@ public class EncryptionService : MonoBehaviour
 		}
 		CONTROLLER.isGameDataSecure = false;
 		//Singleton<Google_SignIn>.instance.Force_SignOut();
+
 	}
 
 	public void SaveToPlayerPrefs(PackData packData, string Key)

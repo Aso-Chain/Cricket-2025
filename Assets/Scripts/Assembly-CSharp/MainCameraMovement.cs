@@ -111,30 +111,37 @@ public class MainCameraMovement : Singleton<MainCameraMovement>
 	{
 		if (CONTROLLER.cameraType != 0)
 		{
+			Debug.Log(" Camera  1");
 			return;
 		}
-		Vector3 vector = (base.transform.position - prevPos) / Time.deltaTime;
+        Debug.Log(" Camera  2");
+        Vector3 vector = (base.transform.position - prevPos) / Time.deltaTime;
 		prevPos = base.transform.position;
 		velo = vector.magnitude;
 		if (!target)
 		{
-			return;
+            Debug.Log(" Camera  3");
+            return;
 		}
 		if (bouncesAt > 40f)
 		{
 			tweenTime = 5f;
-		}
+            Debug.Log(" Camera  4");
+        }
 		else
 		{
-			tweenTime = 5f;
+            Debug.Log(" Camera  5");
+            tweenTime = 5f;
 		}
 		if (Singleton<GroundController>.instance.action <= 2 || !canMove)
 		{
-			return;
+            Debug.Log(" Camera  6");
+            return;
 		}
 		if (!Singleton<GroundController>.instance.ballOnboundaryLine)
 		{
-			if (shotAngle > 220f && shotAngle <= 320f)
+            Debug.Log(" Camera  7");
+            if (shotAngle > 220f && shotAngle <= 320f)
 			{
 				GetComponent<Camera>().enabled = false;
 				BLC.GetComponent<Camera>().enabled = true;
@@ -153,7 +160,8 @@ public class MainCameraMovement : Singleton<MainCameraMovement>
 		}
 		else
 		{
-			tween.Pause();
+            Debug.Log(" Camera  8");
+            tween.Pause();
 			reverseCamTween.Pause();
 		}
 	}

@@ -26,7 +26,7 @@ public class TeamSelectionArcadePanelTransition : Singleton<TeamSelectionArcadeP
 
 	public void resetTransition()
 	{
-		MyTeamLeftButton.image.DOFade(0f, 0f);
+	/*	MyTeamLeftButton.image.DOFade(0f, 0f);
 		MyTeamRightButton.image.DOFade(0f, 0f);
 		OppTeamLeftButton.image.DOFade(0f, 0f);
 		OppTeamRightButton.image.DOFade(0f, 0f);
@@ -35,12 +35,12 @@ public class TeamSelectionArcadePanelTransition : Singleton<TeamSelectionArcadeP
 		OppTeamLeftButtonArrow.DOFade(0f, 0f);
 		OppTeamRightButtonArrow.DOFade(0f, 0f);
 		MyTeamPanel.transform.localPosition = new Vector3(-860f, -50f, 0f);
-		OppTeamPanel.transform.localPosition = new Vector3(860f, -50f, 0f);
+		OppTeamPanel.transform.localPosition = new Vector3(860f, -50f, 0f);*/ //Pratik
 	}
 
 	public void panelTransition()
 	{
-		resetTransition();
+        /*resetTransition();
 		Sequence s = DOTween.Sequence();
 		s.Append(MyTeamPanel.transform.DOLocalMove(new Vector3(-275f, -50f, 0f), 0.5f));
 		s.Insert(0f, OppTeamPanel.transform.DOLocalMove(new Vector3(275f, -50f, 0f), 0.5f));
@@ -53,6 +53,6 @@ public class TeamSelectionArcadePanelTransition : Singleton<TeamSelectionArcadeP
 		s.Insert(0.25f, OppTeamLeftButton.image.DOFade(1f, 0.25f));
 		s.Insert(0.25f, OppTeamLeftButtonArrow.DOFade(1f, 0.25f));
 		s.Insert(0.25f, OppTeamRightButton.image.DOFade(1f, 0.25f));
-		s.Insert(0.25f, OppTeamRightButtonArrow.DOFade(1f, 0.25f));
-	}
+		s.Insert(0.25f, OppTeamRightButtonArrow.DOFade(1f, 0.25f));*/  //Pratik
+    }
 }

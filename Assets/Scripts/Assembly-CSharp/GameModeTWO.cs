@@ -647,7 +647,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		{
 			CONTROLLER.GameStartsFromSave = false;
 			Holder.SetActive(value: false);
-			//Singleton<TeamSelectionArcadePanelTransition>.instance.panelTransition(); //Pratik
+			Singleton<TeamSelectionArcadePanelTransition>.instance.panelTransition(); //Pratik
 			Singleton<TeamSelectionTWO>.instance.showMe();
 		}
 		else
@@ -703,7 +703,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		{
 			CONTROLLER.GameStartsFromSave = false;
 			Holder.SetActive(value: false);
-			Singleton<TeamSelectionArcadePanelTransition>.instance.panelTransition();
+			Singleton<TeamSelectionArcadePanelTransition>.instance.panelTransition();  //Pratik
 			Singleton<TeamSelectionTWO>.instance.showMe();
 		}
 		else

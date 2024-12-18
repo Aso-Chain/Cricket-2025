@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 {
-	public ShineAnim[] shineAnim;
+	//public ShineAnim[] shineAnim;
 
 	//public Transform logo;
 
@@ -255,7 +255,7 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 		sequence.SetLoops(1);
 	}
 
-	private void StartShineAnim()
+/*	private void StartShineAnim()
 	{
 		if (count < 7)
 		{
@@ -267,7 +267,7 @@ public class GameModeTWOPanelTransition : Singleton<GameModeTWOPanelTransition>
 		{
 			count = 0;
 		}
-	}
+	}*/
 
 	public void resetTransition()
 	{

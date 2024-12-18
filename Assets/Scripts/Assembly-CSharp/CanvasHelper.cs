@@ -132,6 +132,7 @@ public class CanvasHelper : MonoBehaviour
 	public static Vector2 GetCanvasSize()
 	{
 		return helpers[0].rectTransform.sizeDelta;
+		//return helpers[0].rectTransform.sizeDelta;
 	}
 
 	public static Vector2 GetSafeAreaSize()

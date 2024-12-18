@@ -82,7 +82,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.01415092, g: 0.6685794, b: 1, a: 1}
-    - _Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _GrayScale: {r: 0.06, g: 1.58, b: -0.54, a: 0}
     - _PatternColor: {r: 0.02888508, g: 0.2264151, b: 0.003203981, a: 1}

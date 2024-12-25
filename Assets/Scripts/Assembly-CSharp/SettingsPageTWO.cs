@@ -190,48 +190,48 @@ public class SettingsPageTWO : Singleton<SettingsPageTWO>
 		if (CONTROLLER.bgMusicVal == 1)
 		{
 			soundBtns[1].gameObject.GetComponent<CanvasRenderer>().SetAlpha(0f);
-			heading[1].color = Color.white;
+			//heading[1].color = Color.white;
 			soundBtns[0].gameObject.GetComponent<CanvasRenderer>().SetAlpha(1f);
-			heading[0].color = Color.black;
+			//heading[0].color = Color.black;
 			bgmSlider.SetActive(value: true);
 		}
 		else
 		{
 			soundBtns[1].gameObject.GetComponent<CanvasRenderer>().SetAlpha(1f);
-			heading[1].color = Color.black;
+			//heading[1].color = Color.black;
 			soundBtns[0].gameObject.GetComponent<CanvasRenderer>().SetAlpha(0f);
-			heading[0].color = Color.white;
+			//heading[0].color = Color.white;
 			bgmSlider.SetActive(value: true);
 		}
 		if (CONTROLLER.ambientVal == 1)
 		{
 			soundBtns[3].gameObject.GetComponent<CanvasRenderer>().SetAlpha(0f);
-			heading[3].color = Color.white;
+			//heading[3].color = Color.white;
 			soundBtns[2].gameObject.GetComponent<CanvasRenderer>().SetAlpha(1f);
-			heading[2].color = Color.black;
+			//heading[2].color = Color.black;
 			sfxSlider.SetActive(value: true);
 		}
 		else
 		{
 			soundBtns[3].gameObject.GetComponent<CanvasRenderer>().SetAlpha(1f);
-			heading[3].color = Color.black;
+			//heading[3].color = Color.black;
 			soundBtns[2].gameObject.GetComponent<CanvasRenderer>().SetAlpha(0f);
-			heading[2].color = Color.white;
+		//	heading[2].color = Color.white;
 			sfxSlider.SetActive(value: true);
 		}
 		if (CONTROLLER.tutorialToggle == 1)
 		{
 			soundBtns[5].gameObject.GetComponent<CanvasRenderer>().SetAlpha(0f);
-			heading[5].color = Color.white;
+			//heading[5].color = Color.white;
 			soundBtns[4].gameObject.GetComponent<CanvasRenderer>().SetAlpha(1f);
-			heading[4].color = Color.black;
+			//heading[4].color = Color.black;
 		}
 		else
 		{
 			soundBtns[5].gameObject.GetComponent<CanvasRenderer>().SetAlpha(1f);
-			heading[5].color = Color.black;
+			//heading[5].color = Color.black;
 			soundBtns[4].gameObject.GetComponent<CanvasRenderer>().SetAlpha(0f);
-			heading[4].color = Color.white;
+			//heading[4].color = Color.white;
 		}
 		setSliderPos();
 	}

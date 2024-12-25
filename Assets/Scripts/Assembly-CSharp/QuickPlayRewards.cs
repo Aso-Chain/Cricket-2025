@@ -38,7 +38,7 @@ public class QuickPlayRewards : Singleton<QuickPlayRewards>
 	public void DoubleRewardsEnded()
 	{
 		ObscuredPrefs.DeleteKey("doubleRewards");
-		doubleRewards.SetActive(value: false);
+		//doubleRewards.SetActive(value: false);
 		CONTROLLER.QPDoubleRewards = false;
 	}
 }

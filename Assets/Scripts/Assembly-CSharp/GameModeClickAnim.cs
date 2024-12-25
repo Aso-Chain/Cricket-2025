@@ -31,9 +31,9 @@ public class GameModeClickAnim : MonoBehaviour
 	private void Awake()
 	{
 		bluePanelTransform = bluePanel.transform.localPosition;
-		cupTransform = cup.transform.localPosition;
-		redPanelColor = redPanel.color;
-		bluePanelColor = Color.blue;
+		//cupTransform = cup.transform.localPosition;
+		//redPanelColor = redPanel.color;
+		//bluePanelColor = Color.blue;
 	}
 
 	public void SetGameModeIndex(int index)

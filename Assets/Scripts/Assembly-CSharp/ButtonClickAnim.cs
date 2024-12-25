@@ -17,3 +17,4 @@ public class ButtonClickAnim : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 		button.transform.DOScale(Vector3.one, 0.1f);
 	}
 }
+  

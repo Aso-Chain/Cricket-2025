@@ -852,7 +852,7 @@ public class FixturesTWO : Singleton<FixturesTWO>
 		Singleton<GameModeTWO>.instance.updateTitle(_modeSelected: true);
 		Holder.SetActive(value: true);
 		CONTROLLER.pageName = "T20Fixtures";
-		Singleton<KnockOutPanelTransition>.instance.panelTransition();
+		//Singleton<KnockOutPanelTransition>.instance.panelTransition();
 		CONTROLLER.PlayModeSelected = 1;
 		init();
 		CONTROLLER.CurrentMenu = "fixtures";
@@ -867,7 +867,7 @@ public class FixturesTWO : Singleton<FixturesTWO>
 	public void Back()
 	{
 		hideMe();
-		Singleton<GameModeTWO>.instance.OpenWorldCupModes();
+		//Singleton<GameModeTWO>.instance.OpenWorldCupModes();
 	}
 
 	public void hideMe()

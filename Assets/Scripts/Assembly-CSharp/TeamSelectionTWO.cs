@@ -260,6 +260,8 @@ public class TeamSelectionTWO : Singleton<TeamSelectionTWO>
 
 	public void SetQuickPlay()
 	{
+		Debug.Log("myTeamIndex" + CONTROLLER.myTeamIndex);
+		Debug.Log("TeamList" + CONTROLLER.TeamList.Length);
 		if (CONTROLLER.myTeamIndex >= 0 && CONTROLLER.myTeamIndex < CONTROLLER.TeamList.Length)
 		{
 			Text sOMyTeamName = SOMyTeamName;
@@ -700,7 +702,7 @@ public class TeamSelectionTWO : Singleton<TeamSelectionTWO>
 		}
 		else if (CONTROLLER.PlayModeSelected == 2)
 		{
-			if (CONTROLLER.tournamentType == "PAK")
+			/*if (CONTROLLER.tournamentType == "PAK")
 			{
 				oversText = "PAKOvers";
 				CONTROLLER.NPLIndiaPointsTable = Singleton<LoadPlayerPrefs>.instance.setPointsTable(CONTROLLER.TeamList.Length, CONTROLLER.NPLIndiaPointsTable);
@@ -723,16 +725,16 @@ public class TeamSelectionTWO : Singleton<TeamSelectionTWO>
 				Singleton<NplGroupMatchesTWOPanelTransistion>.instance.ResetTransistion();
 				Singleton<NPLIndiaLeague>.instance.ShowMe();
 				ObscuredPrefs.SetInt("AUSTeamsSelected", 1);
-			}
+			}*/
 		}
-		else if (CONTROLLER.PlayModeSelected == 3)
+		/*else if (CONTROLLER.PlayModeSelected == 3)
 		{
 			oversText = "WCOvers";
 			Singleton<WCTeamFixturesTWOPanelTransistion>.instance.ResetTransistion();
 			Singleton<WorldCupLeague>.instance.ShowMe();
 			Singleton<WCTeamFixturesTWOPanelTransistion>.instance.PanelTransistion();
 			ObscuredPrefs.SetInt("WCTeamsSelected", 1);
-		}
+		}*/
 		else if (CONTROLLER.PlayModeSelected == 4)
 		{
 			Singleton<SOLevelSelectionPage>.instance.ShowMe();
@@ -753,11 +755,11 @@ public class TeamSelectionTWO : Singleton<TeamSelectionTWO>
 		setTeams();
 	}
 
-	private void NPL()
+/*	private void NPL()
 	{
 		Singleton<NplGroupMatchesTWOPanelTransistion>.instance.ResetTransistion();
 		Singleton<NPLIndiaLeague>.instance.ShowMe();
-	}
+	}*/
 
 	public void ReselectOver()
 	{

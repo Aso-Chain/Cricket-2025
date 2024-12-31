@@ -73,7 +73,7 @@ public class IncompleteMatch : Singleton<IncompleteMatch>
 			CONTROLLER.CurrentMenu = string.Empty;
 			Singleton<TossPageTWO>.instance.Continue();
 		}
-		else if (CONTROLLER.PlayModeSelected == 1)
+		/*else if (CONTROLLER.PlayModeSelected == 1)
 		{
 			//FirebaseAnalyticsManager.instance.logEvent("T20_Continue", "T20WorldCup", CONTROLLER.userID);
 			Singleton<NplGroupMatchesTWOPanelTransistion>.instance.ResetTransistion();
@@ -83,14 +83,14 @@ public class IncompleteMatch : Singleton<IncompleteMatch>
 		{
 			Singleton<NplGroupMatchesTWOPanelTransistion>.instance.ResetTransistion();
 			Singleton<NPLIndiaLeague>.instance.ShowMe();
-		}
-		else if (CONTROLLER.PlayModeSelected == 3)
+		}*/
+		/*else if (CONTROLLER.PlayModeSelected == 3)
 		{
 			Singleton<WCTeamFixturesTWOPanelTransistion>.instance.ResetTransistion();
 			Singleton<WorldCupLeague>.instance.ShowMe();
 			Singleton<WCTeamFixturesTWOPanelTransistion>.instance.PanelTransistion();
 			//FirebaseAnalyticsManager.instance.logEvent("WC_Continue", "WorldCup", CONTROLLER.userID);
-		}
+		}*/
 		else if (CONTROLLER.PlayModeSelected == 4)
 		{
 			ResumeSuperOverSavedGame();

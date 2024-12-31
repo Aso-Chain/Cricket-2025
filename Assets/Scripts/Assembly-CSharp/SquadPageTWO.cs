@@ -555,7 +555,7 @@ public class SquadPageTWO : Singleton<SquadPageTWO>
 				Singleton<FixturesTWO>.instance.showMe();
 			}
 		}
-		else if (CONTROLLER.PlayModeSelected == 2)
+		/*else if (CONTROLLER.PlayModeSelected == 2)
 		{
 			if (CONTROLLER.NPLIndiaTournamentStage == 0)
 			{
@@ -563,7 +563,7 @@ public class SquadPageTWO : Singleton<SquadPageTWO>
 			}
 			else
 			{
-				Singleton<NPLIndiaPlayOff>.instance.ShowMe();
+				//Singleton<NPLIndiaPlayOff>.instance.ShowMe();
 			}
 		}
 		else if (CONTROLLER.PlayModeSelected == 3)
@@ -576,7 +576,7 @@ public class SquadPageTWO : Singleton<SquadPageTWO>
 			{
 				Singleton<WorldCupPlayOff>.instance.ShowMe();
 			}
-		}
+		}*/
 		else if (CONTROLLER.PlayModeSelected == 4)
 		{
 			Singleton<SOLevelSelectionPage>.instance.ShowMe();

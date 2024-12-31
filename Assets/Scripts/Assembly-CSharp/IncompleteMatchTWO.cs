@@ -48,7 +48,7 @@ public class IncompleteMatchTWO : Singleton<IncompleteMatchTWO>
 			Singleton<FixturesTWO>.instance.disableReset = true;
 			Singleton<FixturesTWO>.instance.Holder.SetActive(value: false);
 		}
-		else if (CONTROLLER.PlayModeSelected == 2)
+		/*else if (CONTROLLER.PlayModeSelected == 2)
 		{
 			if (CONTROLLER.tournamentType == "NPL")
 			{
@@ -119,7 +119,7 @@ public class IncompleteMatchTWO : Singleton<IncompleteMatchTWO>
 					ObscuredPrefs.DeleteKey("NPLAustraliaLeagueMatchIndex");
 				}
 			}
-			Singleton<NPLIndiaLeague>.instance.DeletePlayerPrefs();
+			//Singleton<NPLIndiaLeague>.instance.DeletePlayerPrefs();
 			CONTROLLER.TournamentStage = 0;
 			CONTROLLER.myTeamIndex = 0;
 			CONTROLLER.matchIndex = 0;
@@ -133,9 +133,9 @@ public class IncompleteMatchTWO : Singleton<IncompleteMatchTWO>
 			CONTROLLER.StoredNPLIndiaSeriesResult = string.Empty;
 			CONTROLLER.NPLIndiaLeagueMatchIndex = 0;
 			Singleton<EntryFeesAndRewards>.instance.ShowMe();
-			Singleton<NPLIndiaLeague>.instance.disableReset = true;
-			Singleton<NPLIndiaLeague>.instance.holder.SetActive(value: false);
-			Singleton<NPLIndiaPlayOff>.instance.holder.SetActive(value: false);
+			//Singleton<NPLIndiaLeague>.instance.disableReset = true;
+			//Singleton<NPLIndiaLeague>.instance.holder.SetActive(value: false);
+			//Singleton<NPLIndiaPlayOff>.instance.holder.SetActive(value: false);
 			if (CONTROLLER.tournamentType == "NPL")
 			{
 				Singleton<GameModeTWO>.instance.getNplState();
@@ -148,8 +148,8 @@ public class IncompleteMatchTWO : Singleton<IncompleteMatchTWO>
 			{
 				Singleton<GameModeTWO>.instance.getAusState();
 			}
-		}
-		else if (CONTROLLER.PlayModeSelected == 3)
+		}*/
+		/*else if (CONTROLLER.PlayModeSelected == 3)
 		{
 			//Singleton<Firebase_Events>.instance.Firebase_WC_Quit();
 			ObscuredPrefs.SetInt("WCTeamsSelected", 0);
@@ -184,7 +184,7 @@ public class IncompleteMatchTWO : Singleton<IncompleteMatchTWO>
 			Singleton<WorldCupLeague>.instance.disableReset = true;
 			Singleton<WorldCupLeague>.instance.holder.SetActive(value: false);
 			Singleton<WorldCupPlayOff>.instance.holder.SetActive(value: false);
-		}
+		}*/
 	}
 
 	public void NoButton()

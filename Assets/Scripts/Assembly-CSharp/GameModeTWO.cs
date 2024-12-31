@@ -10,7 +10,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 
 	public GameObject newUserPopup;
 
-	public GameObject WCHolder;
+	//public GameObject WCHolder;
 
 	public GameObject PLModes;
 
@@ -170,7 +170,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		}
 	}
 
-	public void OpenWorldCupModes()
+/*	public void OpenWorldCupModes()
 	{
 		Singleton<NavigationBack>.instance.deviceBack = CloseWorldCupModes;
 		Holder.SetActive(value: false);
@@ -186,7 +186,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 	{
 		WCHolder.SetActive(value: false);
 		showMe();
-	}
+	}*/
 
 	public void WatchVideoForExtraSpin()
 	{
@@ -286,7 +286,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		CONTROLLER.matchType = "oneday";
 		UIDataHolder.gameMode = 0;
 		CONTROLLER.PlayModeSelected = 0;
-		WCHolder.SetActive(value: false);
+		//WCHolder.SetActive(value: false);
 		string empty = string.Empty;
 		empty = AutoSave.ReadFile();
 		Singleton<GUIRoot>.instance.GetWorldCupTeams("XML/GameMode/WorldCupSeries");
@@ -310,7 +310,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 	{
 		CONTROLLER.matchType = "oneday";
 		CONTROLLER.PlayModeSelected = 1;
-		WCHolder.SetActive(value: false);
+		//WCHolder.SetActive(value: false);
 		UIDataHolder.gameMode = 1;
 		Singleton<GUIRoot>.instance.GetWorldCupTeams("XML/GameMode/WorldCupSeries");
 		CONTROLLER.TournamentStage = 0;
@@ -358,7 +358,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 
 	public void getNplState()
 	{
-		CONTROLLER.matchType = "oneday";
+		/*CONTROLLER.matchType = "oneday";
 		CONTROLLER.tournamentType = "NPL";
 		CONTROLLER.PlayModeSelected = 2;
 		UIDataHolder.gameMode = 2;
@@ -394,14 +394,14 @@ public class GameModeTWO : Singleton<GameModeTWO>
 				Singleton<NPLIndiaLeague>.instance.ShowMe();
 			}
 			Singleton<NPLIndiaLeague>.instance.disableReset = true;
-		}
+		}*/
 		//FirebaseAnalyticsManager.instance.logEvent("Extras", new string[2] { "ExtrasAction", "NPL_Clicked" });
 		//FirebaseAnalyticsManager.instance.logEvent("MainMenu_click", "MainMenu", CONTROLLER.userID);
 	}
 
 	public void getPakState()
 	{
-		CONTROLLER.matchType = "oneday";
+	/*	CONTROLLER.matchType = "oneday";
 		CONTROLLER.tournamentType = "PAK";
 		CONTROLLER.PlayModeSelected = 2;
 		UIDataHolder.gameMode = 2;
@@ -437,14 +437,14 @@ public class GameModeTWO : Singleton<GameModeTWO>
 				Singleton<NPLIndiaLeague>.instance.ShowMe();
 			}
 			Singleton<NPLIndiaLeague>.instance.disableReset = true;
-		}
+		}*/
 		//FirebaseAnalyticsManager.instance.logEvent("Extras", new string[2] { "ExtrasAction", "PAK_Clicked" });
 		//FirebaseAnalyticsManager.instance.logEvent("MainMenu_click", "MainMenu", CONTROLLER.userID);
 	}
 
 	public void getAusState()
 	{
-		CONTROLLER.matchType = "oneday";
+		/*CONTROLLER.matchType = "oneday";
 		CONTROLLER.tournamentType = "AUS";
 		CONTROLLER.PlayModeSelected = 2;
 		UIDataHolder.gameMode = 2;
@@ -479,14 +479,14 @@ public class GameModeTWO : Singleton<GameModeTWO>
 				Singleton<NPLIndiaLeague>.instance.ShowMe();
 			}
 			Singleton<NPLIndiaLeague>.instance.disableReset = true;
-		}
+		}*/
 		//FirebaseAnalyticsManager.instance.logEvent("Extras", new string[2] { "ExtrasAction", "AUZ_Clicked" });
 		//FirebaseAnalyticsManager.instance.logEvent("MainMenu_click", "MainMenu", CONTROLLER.userID);
 	}
 
 	public void getWorldCupState()
 	{
-		CONTROLLER.PlayModeSelected = 3;
+		/*CONTROLLER.PlayModeSelected = 3;
 		WCHolder.SetActive(value: false);
 		UIDataHolder.gameMode = 3;
 		CONTROLLER.matchType = "oneday";
@@ -523,7 +523,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 				Singleton<WorldCupLeague>.instance.ShowMe();
 			}
 			Singleton<WorldCupLeague>.instance.disableReset = true;
-		}
+		}*/
 		//FirebaseAnalyticsManager.instance.logEvent("Extras", new string[2] { "ExtrasAction", "WC_Clicked" });
 		//FirebaseAnalyticsManager.instance.logEvent("MainMenu_click", "MainMenu", CONTROLLER.userID);
 	}
@@ -760,10 +760,10 @@ public class GameModeTWO : Singleton<GameModeTWO>
 	public void GoToStorePage()
 	{
 		//Singleton<AdIntegrate>.instance.HideAd(); //Pratik
-		Singleton<NPLIndiaLeague>.instance.holder.SetActive(value: false);
+		//Singleton<NPLIndiaLeague>.instance.holder.SetActive(value: false);
 		Singleton<SOLevelSelectionPage>.instance.holder.SetActive(value: false);
 		Singleton<CTLevelSelectionPage>.instance.holder.SetActive(value: false);
-		Singleton<WorldCupLeague>.instance.holder.SetActive(value: false);
+		//Singleton<WorldCupLeague>.instance.holder.SetActive(value: false);
 		Singleton<FixturesTWO>.instance.Holder.SetActive(value: false);
 		Singleton<EntryFeesAndRewards>.instance.Holder.SetActive(value: false);
 		Singleton<EntryFeesAndRewards>.instance.TMHolder.SetActive(value: false);
@@ -1285,7 +1285,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		{
 			Singleton<FixturesTWO>.instance.showMe();
 		}
-		else if (CONTROLLER.screenToDisplay == "NPLLeague")
+		/*else if (CONTROLLER.screenToDisplay == "NPLLeague")
 		{
 			Singleton<NplGroupMatchesTWOPanelTransistion>.instance.ResetTransistion();
 			Singleton<NPLIndiaLeague>.instance.ShowMe();
@@ -1293,8 +1293,8 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		else if (CONTROLLER.screenToDisplay == "NPLfixtures")
 		{
 			Singleton<NPLIndiaPlayOff>.instance.ShowMe();
-		}
-		else if (CONTROLLER.screenToDisplay == "WCLeague")
+		}*/
+		/*else if (CONTROLLER.screenToDisplay == "WCLeague")
 		{
 			Singleton<WorldCupLeague>.instance.ShowMe();
 			Singleton<WCTeamFixturesTWOPanelTransistion>.instance.ResetPosition();
@@ -1302,7 +1302,7 @@ public class GameModeTWO : Singleton<GameModeTWO>
 		else if (CONTROLLER.screenToDisplay == "WCfixtures")
 		{
 			Singleton<WorldCupPlayOff>.instance.ShowMe();
-		}
+		}*/
 		else if (CONTROLLER.screenToDisplay == "CTMainmenu")
 		{
 			Singleton<CTMenuScreen>.instance.ShowMe();

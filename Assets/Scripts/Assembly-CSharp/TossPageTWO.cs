@@ -585,7 +585,7 @@ public class TossPageTWO : Singleton<TossPageTWO>
 				Singleton<FixturesTWO>.instance.showMe();
 			}
 		}
-		else if (CONTROLLER.PlayModeSelected == 2)
+		/*else if (CONTROLLER.PlayModeSelected == 2)
 		{
 			if (CONTROLLER.NPLIndiaTournamentStage == 0)
 			{
@@ -593,7 +593,7 @@ public class TossPageTWO : Singleton<TossPageTWO>
 			}
 			else
 			{
-				Singleton<NPLIndiaPlayOff>.instance.ShowMe();
+				//Singleton<NPLIndiaPlayOff>.instance.ShowMe();
 			}
 		}
 		else if (CONTROLLER.PlayModeSelected == 3)
@@ -606,7 +606,7 @@ public class TossPageTWO : Singleton<TossPageTWO>
 			{
 				Singleton<WorldCupPlayOff>.instance.ShowMe();
 			}
-		}
+		}*/
 	}
 
 	private void Update()
